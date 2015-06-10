@@ -19,7 +19,7 @@ a:hover{text-decoration:underline;color:#d19911;}
 .vam{width:0;height:100%;overflow:hidden;}
 .wrap{padding:28px 100px;border:1px solid #b3cfe7;margin:0 auto;background:#e9f3fb;font-size:18px;text-align:left;}
 .error{border:1px solid #f68383;background:#fff0f0;}
-.bigico{width:65px;height:70px;background:url('http://school.iknei.test/Public/images/rightwrong.jpg') no-repeat;margin-right:20px;}
+.bigico{width:65px;height:70px;background:url('/Public/images/rightwrong.jpg') no-repeat;margin-right:20px;}
 .error .bigico{background-position:0 -70px;}
 .content{width:300px;}
 </style>
