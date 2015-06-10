@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>__TITLE_SEO__</title>
+        <link type="text/css" rel="stylesheet" href="__PUBLIC__/css/common/base.css" />
+        <link type="text/css" rel="stylesheet" href="__PUBLIC__/css/DDL/DDLbase.css" />
+</head>
+<body>
+<div class="meny">
+    <include file="./Application/DDL/View/Common/left.html"/>
+</div>
+<div class="meny-arrow"></div>
+<div class="contents">
+    <include file="./Application/Common/View/Common/top.html"/>
+    <!-- your page contents -->
+	<div class="container clear">
+	<div class="contents_left">
+	   <h3>功能</h3>
+	   <a href="{:U('DDL/Create/table')}"><div class='candy' >新增表</div></a>
+       <a href="{:U('DDL/Alter/table')}"><div class='candy' >新增字段</div></a>
+	</div>
+	<div class="contents_right">
+	   <h3>说明</h3>
+	   内容
+	</div>
+	</div>
+    <include file="./Application/Common/View/Common/footer.html"/>
+</div>
+</body>
+<script src="__PUBLIC__/js/common/jquery.min.js"></script>
+<script src="__PUBLIC__/js/common/meny.min.js"></script>
+</html>

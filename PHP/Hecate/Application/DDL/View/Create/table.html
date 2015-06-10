@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>__TITLE_SEO__</title>
+        <link type="text/css" rel="stylesheet" href="__PUBLIC__/css/common/base.css" />
+        <link type="text/css" rel="stylesheet" href="__PUBLIC__/css/DDL/DDLbase.css" />
+</head>
+<body>
+<div class="meny">
+    <include file="./Application/DDL/View/Common/left.html"/>
+</div>
+<div class="meny-arrow"></div>
+<div class="contents">
+    <include file="./Application/Common/View/Common/top.html"/>
+    <!-- your page contents -->
+	<div class="container clear">
+	<div class="contents_left">
+	   <h3>新增表-必填</h3>
+	   <div class="page-container">
+        <form class="bl_form" action="{:U('DDL/Create/tableIndex')}" method="post">
+          <input name='name' type="text" value=""  class="label_better" data-new-placeholder="表名" placeholder="表名" maxlength="50">
+          <input name='comment' type="text" value=""  class="label_better commnet" data-new-placeholder="备注" placeholder="备注" maxlength="254">
+          </br>
+          <input type="submit" value="下一步" class="candy_btn">
+        </form>
+      </div>
+	</div>
+	<div class="contents_right">
+	   <include file="./Application/DDL/View/Common/right.html"/>
+	</div>
+	</div>
+    <include file="./Application/Common/View/Common/footer.html"/>
+</div>
+</body>
+<script src="__PUBLIC__/js/common/jquery.min.js"></script>
+<script src="__PUBLIC__/js/common/meny.min.js"></script>
+<script src="__PUBLIC__/js/common/jquery.label_better.js"></script>
+</html>
